@@ -13,9 +13,8 @@
 - 🔭 Actualmente trabajando en **proyectos innovadores y desarrollo de software**.
 - 🌱 En constante aprendizaje sobre **nuevas tecnologías y mejores prácticas**.
 - 🤝 Buscando colaborar en **proyectos interesantes y de código abierto**.
-- 📫 Contáctame: **[Tu Correo Aquí]**
-- ⚡ Dato curioso: **[Añade un dato curioso sobre ti o la programación]**
-
+- 📫 Contáctame: anthourrego@gmail.com
+- 
 <br/>
 
 ### 🛠️ Tecnologías y Herramientas
@@ -71,7 +70,7 @@
 
 <div align="center">
   <!-- Cambia el enlace de LinkedIn por el tuyo -->
-  <a href="https://linkedin.com/in/tu-usuario-linkedin" target="_blank">
+  <a href="https://www.linkedin.com/in/anthony-urrego-4430511a5/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://github.com/anthourrego" target="_blank">
