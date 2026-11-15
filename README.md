@@ -1,79 +1,119 @@
-<div align="center">
-  <h1>Hola, soy Anthony Smidh Urrego Pineda <img src="https://media.giphy.com/media/hvRJCLFzcasr14ia7z/giphy.gif" width="30px"></h1>
-  
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=4169E1&center=true&width=500&lines=Software+Developer;Tech+Enthusiast;Problem+Solver;Always+Learning" alt="Typing SVG" />
+# 👋 Hola, soy Anthony Smidh Urrego Pineda
 
-  <p>Construyendo soluciones eficientes y escribiendo código limpio.</p>
+<div align="center">
+
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Software+Developer;Tech+Enthusiast;Problem+Solver;Always+Learning" alt="Presentación animada" />
+
+  <p><strong>Software Developer · Tech Enthusiast · Problem Solver</strong></p>
+
+  <p>Creando soluciones eficientes, escribiendo código limpio y convirtiendo ideas en proyectos reales.</p>
+
+  <a href="https://www.linkedin.com/in/anthony-urrego-4430511a5/">
+    <img src="https://img.shields.io/badge/LinkedIn-Conectemos-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:anthourrego@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contáctame-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Correo electrónico" />
+  </a>
+
 </div>
 
-<br/>
+---
 
-### 👨‍💻 Sobre mí
+## 👨‍💻 Sobre mí
 
-- 🔭 Actualmente trabajando en **proyectos innovadores y desarrollo de software**.
-- 🌱 En constante aprendizaje sobre **nuevas tecnologías y mejores prácticas**.
-- 🤝 Buscando colaborar en **proyectos interesantes y de código abierto**.
-- 📫 Contáctame: anthourrego@gmail.com
-- 
-<br/>
+Soy un desarrollador apasionado por la tecnología y la creación de soluciones de software que aporten valor, combinando buenas prácticas, eficiencia y aprendizaje continuo.
 
-### 🛠️ Tecnologías y Herramientas
+- 🚀 Trabajando en proyectos de desarrollo de software y nuevas ideas.
+- 🌱 Aprendiendo continuamente sobre tecnologías modernas y buenas prácticas.
+- 💡 Interesado en escribir código limpio, mantenible y eficiente.
+- 🤝 Abierto a colaborar en proyectos interesantes y de código abierto.
+- 🎯 Enfocado en mejorar mis habilidades y construir mejores soluciones.
+
+---
+
+## 🛠️ Tecnologías y herramientas
+
+### 💻 Frontend
 
 <div align="center">
-  <!-- Frontend -->
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  
-  <br/>
-  
-  <!-- Backend & DB -->
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  
-  <br/>
-
-  <!-- Tools -->
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
 </div>
-*(Nota: Puedes borrar o añadir las insignias de las tecnologías que realmente uses).*
 
-<br/>
-
-### 📊 Mi Tablero Profesional
+### ⚙️ Backend y bases de datos
 
 <div align="center">
-  <!-- Tarjeta de Estadísticas y Racha (Streak) -->
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&amp;logo=node.js&amp;logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&amp;logo=mysql&amp;logoColor=white" alt="MySQL" />
+</div>
+
+### 🔧 Herramientas de desarrollo
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" />
+</div>
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
   <a href="https://github.com/anthourrego">
-    <img src="https://github-readme-stats.vercel.app/api?username=anthourrego&show_icons=true&theme=tokyonight&hide_border=true&title_color=4169E1" alt="Estadísticas de GitHub" height="195" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=anthourrego&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;rank_icon=github" alt="Estadísticas de GitHub" />
   </a>
+
   <a href="https://github.com/anthourrego">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=anthourrego&theme=tokyonight&hide_border=true&title_color=4169E1" alt="Racha de GitHub" height="195" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anthourrego&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;langs_count=6" alt="Lenguajes más utilizados" />
   </a>
+
+  <br />
+
+  <br />
+
+  <a href="https://github.com/anthourrego">
+    <img width="70%" src="https://streak-stats.demolab.com?user=anthourrego&amp;theme=tokyonight&amp;hide_border=true" alt="Racha de contribuciones de GitHub" />
+  </a>
+
 </div>
 
-<br/>
+---
+
+## 🎯 Mi enfoque
+
+- **Calidad:** código legible, organizado y mantenible.
+- **Resolución de problemas:** soluciones prácticas y eficientes.
+- **Aprendizaje continuo:** exploración de herramientas y tecnologías modernas.
+- **Colaboración:** compartir conocimientos y contribuir a proyectos.
+
+---
+
+## 📬 Conectemos
+
+Siempre hay oportunidades para intercambiar ideas, aprender de otros desarrolladores y colaborar en proyectos interesantes.
 
 <div align="center">
-  <!-- Tarjeta de Lenguajes Más Usados -->
+
+  <a href="https://www.linkedin.com/in/anthony-urrego-4430511a5/">
+    <img src="https://img.shields.io/badge/LinkedIn-Anthony%20Urrego-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn de Anthony" />
+  </a>
+
   <a href="https://github.com/anthourrego">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anthourrego&layout=compact&theme=tokyonight&hide_border=true&title_color=4169E1&langs_count=6" alt="Lenguajes Principales" />
+    <img src="https://img.shields.io/badge/GitHub-anthourrego-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Perfil de GitHub" />
   </a>
-</div>
 
-<br/>
-
-### 📬 Conectemos
-
-<div align="center">
-  <!-- Cambia el enlace de LinkedIn por el tuyo -->
-  <a href="https://www.linkedin.com/in/anthony-urrego-4430511a5/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <a href="mailto:anthourrego@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Escríbeme-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Correo electrónico" />
   </a>
-  <a href="https://github.com/anthourrego" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
+
+  <br />
+  <br />
+
+  <i>Great things are built one commit at a time.</i>
+
 </div>
