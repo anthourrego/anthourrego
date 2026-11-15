@@ -9,10 +9,10 @@
   <p>Creando soluciones eficientes, escribiendo código limpio y convirtiendo ideas en proyectos reales.</p>
 
   <a href="https://www.linkedin.com/in/anthony-urrego-4430511a5/">
-    <img src="https://img.shields.io/badge/LinkedIn-Conectemos-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Conectemos-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:anthourrego@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contáctame-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Correo electrónico" />
+    <img src="https://img.shields.io/badge/Email-Contáctame-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo electrónico" />
   </a>
 
 </div>
@@ -36,50 +36,27 @@ Soy un desarrollador apasionado por la tecnología y la creación de soluciones 
 ### 💻 Frontend
 
 <div align="center">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
 </div>
 
 ### ⚙️ Backend y bases de datos
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&amp;logo=node.js&amp;logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&amp;logo=mysql&amp;logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
 </div>
 
 ### 🔧 Herramientas de desarrollo
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" />
-</div>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-  <a href="https://github.com/anthourrego">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=anthourrego&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;rank_icon=github" alt="Estadísticas de GitHub" />
-  </a>
-
-  <a href="https://github.com/anthourrego">
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anthourrego&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;langs_count=6" alt="Lenguajes más utilizados" />
-  </a>
-
-  <br />
-
-  <br />
-
-  <a href="https://github.com/anthourrego">
-    <img width="70%" src="https://streak-stats.demolab.com?user=anthourrego&amp;theme=tokyonight&amp;hide_border=true" alt="Racha de contribuciones de GitHub" />
-  </a>
-
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </div>
 
 ---
@@ -100,15 +77,13 @@ Siempre hay oportunidades para intercambiar ideas, aprender de otros desarrollad
 <div align="center">
 
   <a href="https://www.linkedin.com/in/anthony-urrego-4430511a5/">
-    <img src="https://img.shields.io/badge/LinkedIn-Anthony%20Urrego-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn de Anthony" />
+    <img src="https://img.shields.io/badge/LinkedIn-Anthony%20Urrego-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn de Anthony" />
   </a>
-
   <a href="https://github.com/anthourrego">
-    <img src="https://img.shields.io/badge/GitHub-anthourrego-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Perfil de GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-anthourrego-181717?style=for-the-badge&logo=github&logoColor=white" alt="Perfil de GitHub" />
   </a>
-
   <a href="mailto:anthourrego@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Escríbeme-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Correo electrónico" />
+    <img src="https://img.shields.io/badge/Email-Escríbeme-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo electrónico" />
   </a>
 
   <br />
