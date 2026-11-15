@@ -8,59 +8,23 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: refresh-github-metrics
-  cancel-in-progress: false
-
 jobs:
-  refresh:
+  generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Download metric cards
-        shell: bash
-        run: |
-          set -euo pipefail
-          mkdir -p metrics
-
-          echo "Downloading GitHub stats..."
-          curl --fail --location --silent --show-error --retry 3 --retry-delay 5 --max-time 60 \
-            "https://github-readme-stats.vercel.app/api?username=anthourrego&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" \
-            --output metrics/github-stats.svg
-          echo "Downloading top languages..."
-          curl --fail --location --silent --show-error --retry 3 --retry-delay 5 --max-time 60 \
-            "https://github-readme-stats.vercel.app/api/top-langs?username=anthourrego&layout=compact&theme=tokyonight" \
-            --output metrics/top-languages.svg
-          echo "Downloading contribution streak..."
-          curl --fail --location --silent --show-error --retry 3 --retry-delay 5 --max-time 60 \
-            "https://streak-stats.demolab.com/?user=anthourrego&theme=tokyonight&hide_border=true" \
-            --output metrics/streak.svg
-          echo "Downloading activity graph..."
-          curl --fail --location --silent --show-error --retry 3 --retry-delay 5 --max-time 60 \
-            "https://github-readme-activity-graph.vercel.app/graph?username=anthourrego&theme=tokyo-night&hide_border=true&area=true" \
-            --output metrics/activity-graph.svg
-
-          for file in metrics/*.svg; do
-            if ! grep -qi '<svg' "$file"; then
-              echo "Downloaded file is not an SVG: $file" >&2
-              exit 1
-            fi
-          done
-
-      - name: Commit changed metrics
-        shell: bash
-        run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add metrics/*.svg
-
-          if git diff --cached --quiet; then
-            echo "Metrics are unchanged."
-            exit 0
-          fi
-
-          git commit -m "chore: refresh GitHub metrics"
-          git push
+      - name: Generate GitHub metrics
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: anthourrego
+          filename: metrics/github-metrics.svg
+          committer_message: "chore: refresh GitHub metrics"
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Bogota
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_isocalendar: yes
+          plugin_habits: yes
+          plugin_activity: yes

@@ -71,35 +71,7 @@ Me interesa desarrollar aplicaciones eficientes, escalables y fáciles de manten
 <div align="center">
 
   <a href="https://github.com/anthourrego">
-    <img
-  src="./metrics/github-stats.svg"
-  height="180"
-  alt="Estadísticas de GitHub"
-/>
-  </a>
-
-  <a href="https://github.com/anthourrego">
-    <img height="180em" src="./metrics/top-languages.svg" alt="Lenguajes más utilizados" />
-  </a>
-
-</div>
-
-<div align="center">
-
-  <a href="https://github.com/anthourrego">
-    <img width="70%" src="./metrics/streak.svg" alt="Racha de contribuciones" />
-  </a>
-
-</div>
-
----
-
-## 📈 Actividad en GitHub
-
-<div align="center">
-
-  <a href="https://github.com/anthourrego">
-    <img width="95%" src="./metrics/activity-graph.svg" alt="Gráfico de actividad de GitHub" />
+    <img width="95%" src="./metrics/github-metrics.svg" alt="Métricas y actividad de GitHub" />
   </a>
 
 </div>
