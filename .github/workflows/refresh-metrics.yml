@@ -25,15 +25,19 @@ jobs:
           set -euo pipefail
           mkdir -p metrics
 
+          echo "Downloading GitHub stats..."
           curl --fail --location --silent --show-error --retry 3 --retry-delay 5 --max-time 60 \
-            "https://github-stats-extended.vercel.app/api?username=anthourrego&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" \
+            "https://github-readme-stats.vercel.app/api?username=anthourrego&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" \
             --output metrics/github-stats.svg
+          echo "Downloading top languages..."
           curl --fail --location --silent --show-error --retry 3 --retry-delay 5 --max-time 60 \
-            "https://github-stats-extended.vercel.app/api/top-langs?username=anthourrego&layout=compact&theme=tokyonight" \
+            "https://github-readme-stats.vercel.app/api/top-langs?username=anthourrego&layout=compact&theme=tokyonight" \
             --output metrics/top-languages.svg
+          echo "Downloading contribution streak..."
           curl --fail --location --silent --show-error --retry 3 --retry-delay 5 --max-time 60 \
             "https://streak-stats.demolab.com/?user=anthourrego&theme=tokyonight&hide_border=true" \
             --output metrics/streak.svg
+          echo "Downloading activity graph..."
           curl --fail --location --silent --show-error --retry 3 --retry-delay 5 --max-time 60 \
             "https://github-readme-activity-graph.vercel.app/graph?username=anthourrego&theme=tokyo-night&hide_border=true&area=true" \
             --output metrics/activity-graph.svg
