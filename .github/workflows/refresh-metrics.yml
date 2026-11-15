@@ -1,0 +1,62 @@
+name: Refresh GitHub metrics
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-github-metrics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Download metric cards
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p metrics
+
+          curl --fail --location --silent --show-error --retry 3 --retry-delay 5 --max-time 60 \
+            "https://github-stats-extended.vercel.app/api?username=anthourrego&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" \
+            --output metrics/github-stats.svg
+          curl --fail --location --silent --show-error --retry 3 --retry-delay 5 --max-time 60 \
+            "https://github-stats-extended.vercel.app/api/top-langs?username=anthourrego&layout=compact&theme=tokyonight" \
+            --output metrics/top-languages.svg
+          curl --fail --location --silent --show-error --retry 3 --retry-delay 5 --max-time 60 \
+            "https://streak-stats.demolab.com/?user=anthourrego&theme=tokyonight&hide_border=true" \
+            --output metrics/streak.svg
+          curl --fail --location --silent --show-error --retry 3 --retry-delay 5 --max-time 60 \
+            "https://github-readme-activity-graph.vercel.app/graph?username=anthourrego&theme=tokyo-night&hide_border=true&area=true" \
+            --output metrics/activity-graph.svg
+
+          for file in metrics/*.svg; do
+            if ! grep -qi '<svg' "$file"; then
+              echo "Downloaded file is not an SVG: $file" >&2
+              exit 1
+            fi
+          done
+
+      - name: Commit changed metrics
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics/*.svg
+
+          if git diff --cached --quiet; then
+            echo "Metrics are unchanged."
+            exit 0
+          fi
+
+          git commit -m "chore: refresh GitHub metrics"
+          git push
