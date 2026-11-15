@@ -71,11 +71,15 @@ Me interesa desarrollar aplicaciones eficientes, escalables y fáciles de manten
 <div align="center">
 
   <a href="https://github.com/anthourrego">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=anthourrego&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="Estadísticas de GitHub" />
+    <img
+  src="https://github-stats-extended.vercel.app/api?username=anthourrego&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github"
+  height="180"
+  alt="Estadísticas de GitHub"
+/>
   </a>
 
   <a href="https://github.com/anthourrego">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anthourrego&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Lenguajes más utilizados" />
+    <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs?username=anthourrego&layout=compact&theme=tokyonight" alt="Lenguajes más utilizados" />
   </a>
 
 </div>
